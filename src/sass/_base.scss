@@ -1,0 +1,42 @@
+//TODO: Handle global style
+
+// =========== Modify some elements ==========
+
+@use 'variables' as v;
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  //  font-size: ???;
+  //  line-height: ???;
+  //  font-family: ???;
+  //  letter-spacing: ???;
+}
+
+//h1 {
+//  font-size: ???;
+//  line-height: ???;
+//  font-family: ???;
+//  letter-spacing: ???;
+//}
+//
+//h2 {
+//  font-size: ???;
+//  line-height: ???;
+//  font-family: ???;
+//  letter-spacing: ???;
+//}
+
+// =========== Media depending on the elements above ==========
+
+//@media (max-width: ???px) {
+//
+//}

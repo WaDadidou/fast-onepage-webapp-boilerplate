@@ -1,0 +1,61 @@
+// TODO: Declare reusable classes
+
+@use 'variables' as v;
+
+// _________ Theses classes may be called from any component to reuse their style with @extend _________
+
+// =========== Animations classes ==========
+
+//.fadeInSection {
+//  opacity: 0;
+//  transform: translateY(20vh);
+//  visibility: hidden;
+//  transition: opacity 1200ms ease-out, transform 600ms ease-out, visibility 1200ms ease-out;
+//  will-change: opacity, transform, visibility;
+//
+//  &.sectionVisible {
+//    opacity: 1;
+//    transform: none;
+//    visibility: visible;
+//  }
+//}
+
+// =========== Layout classes ==========
+
+//.section {
+//  display: flex;
+//  align-items: center;
+//  justify-content: space-between;
+//  flex-wrap: wrap;
+//
+//  width: 100%;
+//  max-width: 952px;
+//  margin: 0 0 v.$landing-section-margin-y 0;
+//
+//  &:first-child {
+//    margin-top: v.$landing-section-margin-y;
+//  }
+//}
+
+// =========== Typography classes ==========
+
+//.fontHeaderFooter {
+//  font-size: v.$font-size-15;
+//  line-height: v.$line-height-22;
+//  font-family: "Inter SemiBold", sans-serif;
+//  letter-spacing: -0.01em;
+//}
+
+
+// =========== Media depending on the classes above ==========
+
+//@media (max-width: 900px) {
+//  .section {
+//    width: 100%;
+//    margin: 0 0 v.$mobile-section-margin-y;
+//
+//    &:first-child {
+//      margin-top: v.$mobile-section-margin-y;
+//    }
+//  }
+//}

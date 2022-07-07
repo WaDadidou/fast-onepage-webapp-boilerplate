@@ -1,0 +1,46 @@
+{
+  "name": "webpack-react-redux-sass",
+  "version": "1.0.0",
+  "description": "A boilerplate",
+  "main": "index.jsx",
+  "scripts": {
+    "lint-fix": "eslint --fix ./**",
+    "lint": "eslint ./**",
+    "build": "node --max-old-space-size=8192 --optimize-for-size --optimize_for_size node_modules/webpack/bin/webpack.js --progress --color",
+    "dev": "node --max-old-space-size=8192 --optimize-for-size --optimize_for_size node_modules/webpack-dev-server/bin/webpack-dev-server.js --progress --color"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "dotenv-webpack": "^7.1.0",
+    "eslint": "^8.18.0",
+    "eslint-plugin-react": "^7.30.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.1.2",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "sass-loader": "^13.0.0",
+    "speed-measure-webpack-plugin": "^1.5.0",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.3",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "classnames": "^2.3.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.53.0"
+  }
+}
